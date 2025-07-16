@@ -56,10 +56,9 @@ export default function Footer() {
         </div>
 
         {/* Social Media / Newsletter (Optional, keeping it simple as per request) */}
-        <div className="space-y-4">
+        {/* <div className="space-y-4">
           <h3 className="text-lg font-semibold text-zinc-50">Follow Us</h3>
           <div className="flex space-x-4">
-            {/* Placeholder for social media icons */}
             <Link href="#" className="text-zinc-400 hover:text-primary">
               <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path
@@ -77,7 +76,7 @@ export default function Footer() {
               <span className="sr-only">Twitter</span>
             </Link>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <div className="mt-8 border-t border-zinc-800 pt-8 text-center text-sm text-zinc-500">
