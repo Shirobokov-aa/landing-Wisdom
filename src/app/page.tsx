@@ -155,7 +155,7 @@ export default function HomePage() {
             <div className="flex flex-col items-center gap-6 md:flex-row">
               <div className="relative h-48 w-full md:h-32 md:w-48 flex-shrink-0">
                 <Image
-                  src="/images/1695621316038.jfif"
+                  src="/images/custom.webp"
                   alt="Trusted Partner"
                   layout="fill"
                   objectFit="cover"
