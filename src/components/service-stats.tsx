@@ -1,33 +1,33 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { TrendingUp, Ship, Users, Award } from "lucide-react"
+import { TrendingUp, Globe, Users, Award } from "lucide-react" // Updated icons
 
 export function ServiceStats() {
   const stats = [
     {
       icon: TrendingUp,
       number: "15,000+",
-      label: "Successful deliveries",
-      description: "Orders completed in the past year",
+      label: "Successful Trades",
+      description: "Transactions completed in the past year",
     },
     {
-      icon: Ship,
+      icon: Globe,
       number: "50+",
-      label: "Countries served",
-      description: "Global network coverage",
+      label: "Countries Traded",
+      description: "Global market reach",
     },
     {
       icon: Users,
       number: "2,500+",
-      label: "Happy clients",
+      label: "Satisfied Partners",
       description: "Trusted by businesses worldwide",
     },
     {
       icon: Award,
       number: "99.8%",
-      label: "Success rate",
-      description: "On-time delivery guarantee",
+      label: "Trade Efficiency",
+      description: "Streamlined processes for optimal trade flow",
     },
   ]
 
@@ -48,19 +48,19 @@ export function ServiceStats() {
           <div className="grid md:grid-cols-2 gap-8">
             <div>
               <p className="text-orange-500 font-semibold text-lg mb-2">WE ARE THE BEST</p>
-              <h3 className="text-2xl font-bold text-white mb-4">About the field of delivery</h3>
+              <h3 className="text-2xl font-bold text-white mb-4">About the field of import and export</h3>
               <p className="text-gray-300 leading-relaxed">
-                With over a decade of experience in international logistics, Wisdom has established itself as a leading
-                provider of comprehensive shipping and delivery solutions. Our commitment to excellence and customer
-                satisfaction drives everything we do.
+                With over a decade of experience in international import and export trade, Wisdom has established itself
+                as a leading provider of comprehensive sourcing and wholesale distribution solutions. Our commitment to
+                excellence and partner satisfaction drives everything we do.
               </p>
             </div>
             <div>
-              <p className="text-white font-semibold text-lg mb-4">Goods from The sea</p>
+              <p className="text-white font-semibold text-lg mb-4">Goods from Global Markets</p>
               <p className="text-gray-300 leading-relaxed">
-                Our ocean freight services handle millions of tons of cargo annually, connecting businesses across
-                continents with reliable and cost-effective shipping solutions. From full container loads to
-                consolidated shipments, we ensure your goods reach their destination safely.
+                We facilitate the movement of millions of tons of goods annually, connecting businesses across
+                continents with reliable and cost-effective trade solutions. From raw materials to finished products, we
+                ensure your goods are sourced and distributed efficiently.
               </p>
             </div>
           </div>

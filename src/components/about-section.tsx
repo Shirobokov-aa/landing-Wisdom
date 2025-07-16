@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Truck, Globe, Shield, Clock } from "lucide-react"
+import { Globe, Handshake, FileCheck, TrendingUp } from "lucide-react" // Updated icons
 import { Card, CardContent } from "@/components/ui/card"
 
 export function AboutSection() {
@@ -9,22 +9,22 @@ export function AboutSection() {
     {
       icon: Globe,
       title: "Global Reach",
-      description: "Worldwide logistics network covering all major markets and trade routes.",
+      description: "Extensive network for sourcing and distributing products worldwide.",
     },
     {
-      icon: Truck,
-      title: "Reliable Transport",
-      description: "Modern fleet and trusted partners ensuring safe delivery of your goods.",
+      icon: Handshake,
+      title: "Reliable Sourcing",
+      description: "Trusted partnerships ensuring high-quality and consistent product supply.",
     },
     {
-      icon: Shield,
-      title: "Secure Operations",
-      description: "Comprehensive insurance and security measures for all shipments.",
+      icon: FileCheck,
+      title: "Trade Compliance",
+      description: "Expert navigation of international trade regulations and customs.",
     },
     {
-      icon: Clock,
-      title: "Timely Delivery",
-      description: "Efficient scheduling and tracking systems for on-time deliveries.",
+      icon: TrendingUp,
+      title: "Market Expertise",
+      description: "Deep understanding of global markets for strategic trade solutions.",
     },
   ]
 
@@ -40,8 +40,8 @@ export function AboutSection() {
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Why Choose Wisdom?</h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            With years of experience in international logistics, we provide comprehensive solutions tailored to your
-            business needs.
+            With years of experience in international import and export trade, we provide comprehensive solutions
+            tailored to your business needs.
           </p>
         </motion.div>
 

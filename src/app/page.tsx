@@ -4,9 +4,9 @@ import { HeroSection } from "@/components/hero-section"
 import { ServicesSection } from "@/components/services-section"
 import { Footer } from "@/components/footer"
 import { CompanyStats } from "@/components/company-stats"
-import { ImageGallery } from "@/components/image-gallery"
+import { ProductGallery } from "@/components/image-gallery"
 import { ProcessSection } from "@/components/process-section"
-import { ExpandedAbout } from "@/components/expanded-about"
+// import { ExpandedAbout } from "@/components/expanded-about"
 
 export default function Home() {
   return (
@@ -14,10 +14,10 @@ export default function Home() {
       <Header />
       <main>
         <HeroSection />
-        <ExpandedAbout />
+        {/* <ExpandedAbout /> */}
         <CompanyStats />
         <ProcessSection />
-        <ImageGallery />
+        <ProductGallery />
         <ServicesSection />
       </main>
       <Footer />

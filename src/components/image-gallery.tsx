@@ -4,37 +4,37 @@ import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import Image from "next/image"
 
-export function ImageGallery() {
+export function ProductGallery() {
   const galleryItems = [
     {
-      title: "Ocean Freight Operations",
-      description: "Modern container ships handling international cargo across global trade routes",
-      image: "/images/OceanFreightOperations.webp",
+      title: "Global Trade Networks",
+      description: "Connecting markets and businesses through extensive international trade networks.",
+      image: "/placeholder.svg?height=300&width=400",
     },
     {
-      title: "Air Cargo Services",
-      description: "Fast and reliable air freight solutions for time-sensitive shipments",
-      image: "/images/AirCargoServices.jpg",
+      title: "Product Sourcing Expertise",
+      description: "Efficiently sourcing high-quality products from diverse global origins.",
+      image: "/placeholder.svg?height=300&width=400",
     },
     {
-      title: "Warehouse Facilities",
-      description: "State-of-the-art storage and distribution centers worldwide",
-      image: "/images/WarehouseFacilities.jpg",
+      title: "Wholesale Distribution Hubs",
+      description: "Strategic distribution centers for seamless bulk product movement.",
+      image: "/placeholder.svg?height=300&width=400",
     },
     {
-      title: "Ground Transportation",
-      description: "Comprehensive trucking and rail services for land-based logistics",
-      image: "/images/GroundTransportation.png",
+      title: "Quality Control & Inspection",
+      description: "Ensuring product quality and compliance with rigorous inspection processes.",
+      image: "/placeholder.svg?height=300&width=400",
     },
     {
-      title: "Port Operations",
-      description: "Efficient loading and unloading operations at major international ports",
-      image: "/images/PortOperations.jpg",
+      title: "International Partnerships",
+      description: "Building strong relationships with partners across the globe for mutual growth.",
+      image: "/placeholder.svg?height=300&width=400",
     },
     {
-      title: "Logistics Technology",
-      description: "Advanced tracking and management systems for real-time shipment monitoring",
-      image: "/images/LogisticsTechnology.jpg",
+      title: "Market Insights & Analysis",
+      description: "Providing valuable market intelligence for informed trade decisions.",
+      image: "/placeholder.svg?height=300&width=400",
     },
   ]
 
@@ -48,9 +48,9 @@ export function ImageGallery() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Our Operations</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Our Trade Operations</h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Take a look at our comprehensive logistics operations spanning across the globe
+            Explore our comprehensive import and export trade operations, focusing on wholesale and product sourcing.
           </p>
         </motion.div>
 
@@ -66,7 +66,7 @@ export function ImageGallery() {
               <Card className="bg-gray-900 border-gray-700 hover:border-purple-500 transition-all duration-300 overflow-hidden group">
                 <div className="relative overflow-hidden">
                   <Image
-                    src={item.image}
+                    src={item.image || "/placeholder.svg"}
                     width={400}
                     height={300}
                     alt={item.title}

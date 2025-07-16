@@ -38,8 +38,8 @@ export function Header() {
               <span className="text-white font-bold text-lg">W</span>
             </div>
             <div>
-              <h1 className="text-white font-bold text-xl">Wisdom</h1>
-              <p className="text-gray-400 text-sm">Logistics Limited</p>
+              <h1 className="text-white font-bold text-xl">WISDOM</h1>
+              <p className="text-gray-400 text-sm">SPRING SOURCE LIMITED</p>
             </div>
           </motion.div>
 

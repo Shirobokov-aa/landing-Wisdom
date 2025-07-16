@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { Shield, Clock, Users, Award } from "lucide-react"
-import Image from "next/image"
+import { motion } from "framer-motion";
+import { Shield, Clock, Users, Award } from "lucide-react";
+import Image from "next/image";
 
 export function ExpandedAbout() {
   return (
@@ -99,8 +99,8 @@ export function ExpandedAbout() {
               <div className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-sm rounded-lg p-6">
                 <div className="grid grid-cols-2 gap-4 text-center">
                   <div>
-                    <h4 className="text-2xl font-bold text-gray-800">15+</h4>
-                    <p className="text-gray-600 text-sm">Years Experience</p>
+                    <h4 className="text-2xl font-bold text-gray-800">2500+</h4>
+                    <p className="text-gray-600 text-sm">Happy Clients</p>
                   </div>
                   <div>
                     <h4 className="text-2xl font-bold text-gray-800">50+</h4>
@@ -113,5 +113,5 @@ export function ExpandedAbout() {
         </div>
       </div>
     </section>
-  )
+  );
 }

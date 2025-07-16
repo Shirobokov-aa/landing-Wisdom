@@ -34,9 +34,9 @@ export function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          Wisdom is a global logistics company specializing in international trade, importing and exporting goods to
-          markets around the world. Our expertise spans a wide range of industries, ensuring efficient and reliable
-          logistics solutions.
+          Wisdom is a global import and export trade company specializing in wholesale distribution and
+          for markets around the world. Our expertise spans a wide range of industries, ensuring efficient and reliable
+          trade solutions.
         </motion.p>
       </div>
     </section>

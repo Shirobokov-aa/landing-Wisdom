@@ -20,8 +20,8 @@ export function Footer() {
                 <span className="text-white font-bold text-lg">W</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold">Wisdom</h3>
-                <p className="text-gray-400 text-sm">Logistics Limited</p>
+                <h3 className="text-xl font-bold">WISDOM</h3>
+                <p className="text-gray-400 text-sm">SPRING SOURCE LIMITED</p>
               </div>
             </div>
             <p className="text-gray-300 leading-relaxed">
@@ -48,7 +48,7 @@ export function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-5 h-5 text-purple-400" />
-                <span className="text-gray-300">Global Headquarters</span>
+                <span className="text-gray-300">Premises 704C, 7/F, Block 3, Nan Fung Industrial City, Tuen Mun, HK</span>
               </div>
             </div>
           </motion.div>
