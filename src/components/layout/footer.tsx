@@ -80,7 +80,7 @@ export default function Footer() {
       </div>
 
       <div className="mt-8 border-t border-zinc-800 pt-8 text-center text-sm text-zinc-500">
-        &copy; {new Date().getFullYear()} WISDOM SPRING SOURCE LIMITED. All rights reserved.
+        &copy; <span suppressHydrationWarning>{new Date().getFullYear()}</span> WISDOM SPRING SOURCE LIMITED. All rights reserved.
       </div>
     </footer>
   )
